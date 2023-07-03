@@ -16,8 +16,31 @@ var structJames = MusicianStruct(name: "James", age: 50, instrument: "Guitar")
 
 //print(structJames.age)
 classJames.age = 51
-print(classJames.age)
+//print(classJames.age)
 structJames.age = 51
-print(structJames.age)
+//print(structJames.age)
+
 // REFERENCE vs VALUE
+let copyOfClassJames = classJames
+
+var copyOfStructJames = structJames
+
+print(copyOfClassJames.age)
+print(copyOfStructJames.age)
+copyOfClassJames.age = 52
+copyOfStructJames.age = 52
+print(copyOfClassJames.age)
+print(copyOfStructJames.age)
+print("------")
+print(classJames.age)
+print(structJames.age)
+
+// Referenc Types -> Class
+// Copy -> Same object new reference -- 1 object +2 Reference
+
+// Value Types - Struct
+// Copy - new Object - 2 object
+
+
+
 
