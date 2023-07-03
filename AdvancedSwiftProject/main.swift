@@ -2,7 +2,7 @@
 //  main.swift
 //  AdvancedSwiftProject
 //
-//  Created by sys on 3.07.2023.
+//  Created by Cengiz ÖZDEMİR on 3.07.2023.
 //
 
 import Foundation
