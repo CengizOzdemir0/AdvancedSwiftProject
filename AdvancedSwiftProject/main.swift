@@ -119,3 +119,11 @@ case 4...6:
 default:
     print("none of the above")
 }
+print("------------")
+// Breakpoint
+// Break point mola noktalarıdır. Debug modu
+var x = 5
+print(x)
+x += 1
+print(x)
+
