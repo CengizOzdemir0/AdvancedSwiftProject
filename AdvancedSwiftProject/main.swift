@@ -91,5 +91,19 @@ func convertToIntegerIf (stringInput : String) -> Int {
         return 0
     }
 }
-print(converToIntegerGuard(stringInput: myNumber))
-print(convertToIntegerIf(stringInput: myNumber))
+//print(converToIntegerGuard(stringInput: myNumber))
+//print(convertToIntegerIf(stringInput: myNumber))
+
+//Switch
+let myNum = 11
+// remainder -- bölenden kalanı hesaplama
+let myRemainder = myNum % 2
+print(myRemainder)
+if myRemainder == 1 {
+    print("it's 1")
+}else if myRemainder == 2 {
+    print("it's 2")
+}else if myRemainder == 3 {
+    print("it's 3")
+}
+
