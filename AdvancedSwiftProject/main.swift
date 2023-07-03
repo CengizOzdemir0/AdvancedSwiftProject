@@ -126,4 +126,44 @@ var x = 5
 print(x)
 x += 1
 print(x)
+print("------------Protocol")
 
+protocol Running {
+    func myRun()
+}
+class Animal {
+  
+    func test() {
+        print("test")
+    }
+}
+class Dog : Running {
+    func myRun() {
+        print("runnnn")
+    }
+    
+    func running() {
+        print("running")
+    }
+}
+let barlet = Dog()
+barlet.myRun()
+
+class Cat : Animal, Running {
+    func myRun() {
+        print("running")
+    }
+}
+let cat = Cat()
+cat.test()
+cat.myRun()
+
+class Turtle : Animal {
+    
+}
+let leonardo = Turtle()
+//leonardo.running()
+
+/*struct Bird : Animal {
+    
+}*/
