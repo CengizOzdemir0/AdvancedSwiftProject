@@ -95,9 +95,9 @@ func convertToIntegerIf (stringInput : String) -> Int {
 //print(convertToIntegerIf(stringInput: myNumber))
 
 //Switch
-let myNum = 11
+let myNum = 14
 // remainder -- bölenden kalanı hesaplama
-let myRemainder = myNum % 2
+let myRemainder = myNum % 5
 print(myRemainder)
 if myRemainder == 1 {
     print("it's 1")
@@ -107,3 +107,15 @@ if myRemainder == 1 {
     print("it's 3")
 }
 
+switch myRemainder {
+case 1:
+    print("it's 1- ")
+case 2:
+    print("it's 2- ")
+case 3:
+    print("it's 3- ")
+case 4...6:
+    print("it's 4-6-")
+default:
+    print("none of the above")
+}
