@@ -42,12 +42,34 @@ print(structJames.age)*/
 // Copy - new Object - 2 object
 
 //Function vs Mutating Function
-print(classJames.age)
+//print(classJames.age)
 classJames.happyBirth()
-print(classJames.age)
+//print(classJames.age)
 
-print(structJames.age)
+//print(structJames.age)
 structJames.happyBirthday()
-print(structJames.age)
+//print(structJames.age)
 
+// TUPLE
+// Birden fazla veriyi aynı kolesksiyon içinde göstermek için, tam anlamıyla dizi değil
+let myTuple = (1,3)
+print(myTuple.0)
 
+var myTuple2 = (2,4,6)
+print(myTuple2.2)
+myTuple2.2 = 10
+print(myTuple2.2)
+
+let myTuple3 = ("Jake",100)
+
+let myTuple4 = (10,[10,20,30])
+print(myTuple4.1[1])
+
+let predefinedTuple : (String, String)
+predefinedTuple.0 = "Jake"
+predefinedTuple.1 = "Sam"
+print(predefinedTuple)
+
+let newTuple = (name:"James", metallica: true)
+print(newTuple.metallica)
+print(newTuple.name)
