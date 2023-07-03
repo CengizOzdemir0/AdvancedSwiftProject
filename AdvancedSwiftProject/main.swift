@@ -25,15 +25,15 @@ let copyOfClassJames = classJames
 
 var copyOfStructJames = structJames
 
-print(copyOfClassJames.age)
-print(copyOfStructJames.age)
+/*print(copyOfClassJames.age)
+print(copyOfStructJames.age)*/
 copyOfClassJames.age = 52
 copyOfStructJames.age = 52
-print(copyOfClassJames.age)
+/*print(copyOfClassJames.age)
 print(copyOfStructJames.age)
 print("------")
 print(classJames.age)
-print(structJames.age)
+print(structJames.age)*/
 
 // Referenc Types -> Class
 // Copy -> Same object new reference -- 1 object +2 Reference
@@ -41,6 +41,13 @@ print(structJames.age)
 // Value Types - Struct
 // Copy - new Object - 2 object
 
+//Function vs Mutating Function
+print(classJames.age)
+classJames.happyBirth()
+print(classJames.age)
 
+print(structJames.age)
+structJames.happyBirthday()
+print(structJames.age)
 
 
