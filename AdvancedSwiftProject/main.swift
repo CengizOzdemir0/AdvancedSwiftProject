@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+let classJames = MusicianClass(nameInput: "James", ageInput: 50, instrumentInput: "Guitar")
 
+print(classJames.age)
